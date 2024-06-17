@@ -1,4 +1,4 @@
-import random
+gitimport random
 
 name = input("Give me everybody's names, seperated by a comma.")
 names= name.split(", ")

@@ -1,0 +1,26 @@
+scores = input("Enter a list of student scores\n").split()
+for n in range (0,len(scores)):
+    scores[n] = int(scores[n])
+print (scores)
+
+total_score = 0
+for x in scores:            #implimenting the sum function using loops
+    total_score += x
+    
+totalnumof_scores = 0
+for y in scores:            #implimenting the len function using loops
+     totalnumof_scores += 1
+
+average = total_score/total_score
+print(average)
+
+#calculating the highest score implimenting the max function
+highest_score = 0
+for j in scores:
+   if j>highest_score:
+       highest_score = j
+print(f"Highest score is {highest_score}")   
+    
+    
+
+     
