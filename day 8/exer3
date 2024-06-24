@@ -1,0 +1,13 @@
+def prime_checker(n):
+    isprime = True
+    for i in range(2, n-1):
+        if n % i == 0:
+            isprime = False
+    if isprime == True:
+        print("The number is prime")
+    else:
+        print("The number is not prime")
+
+n = int(input("Please Enter a Number\n"))
+
+prime_checker(n)

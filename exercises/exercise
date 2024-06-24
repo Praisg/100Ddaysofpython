@@ -1,0 +1,8 @@
+for letters in range(97,123):
+    print(f"{chr(letters)}",end="")
+'''note that we are printing the ascii equavalent of the alphabet so from 97 to 122 by specifying that is chr we print th letters'''
+  
+#for letters in range(97,123):
+    #if chr(letters) != 'q' and chr(letters) != 'e': 
+         #print(f"{chr(letters)}",end="")
+         #'''printin excluding q and e'''
