@@ -3,7 +3,7 @@ def mutate(a_list):
     for item in a_list:
         new_item = item * 2
         b_list.append(new_item)
-     print(b_list) 
+    print(b_list) 
 
 mutate([2,3,4,5,6])
 
