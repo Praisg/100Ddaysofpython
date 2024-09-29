@@ -33,9 +33,7 @@ import random
             
 # #     else:
 # #         print("Invalid option!")
-# #         play = False
-
-
+# #         play = False`
 def get_random_account():
   """Get data from random account"""
   return random.choice(data)

@@ -1,5 +1,6 @@
 from coffee import MENU, resources
 
+<<<<<<< HEAD
 cash = 0 #made global 
 
 def machin(coff):
@@ -49,3 +50,5 @@ while prompt:
 
 
      
+=======
+>>>>>>> 78c5170ea0594afe88208b98b9c7f1f06144b451
