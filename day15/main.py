@@ -1,6 +1,5 @@
 from coffee import MENU, resources
 
-<<<<<<< HEAD
 cash = 0 #made global 
 
 def machin(coff):
@@ -44,11 +43,3 @@ while prompt:
         if machin(coff):# if false from machin() we wont ask for coins 
             coins(coff)
         
-        
-
-
-
-
-     
-=======
->>>>>>> 78c5170ea0594afe88208b98b9c7f1f06144b451
